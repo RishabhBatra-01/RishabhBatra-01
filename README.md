@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
   </a>
   <a href="mailto:rishabhkbatra@gmail.com">
-    <img src="https://img.shields.io/badge/Email-rishabhkbatra@gmail.com-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-rishabhbatra81@gmail.com-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
   </a>
 </div>
 
