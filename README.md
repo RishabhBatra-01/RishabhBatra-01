@@ -166,29 +166,10 @@ I take products from an **empty repo to live in production**. Backend, AI, full-
 
 <div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
 
-<!-- ==================== GITHUB STATS ==================== -->
-## 📊 GitHub Stats
-
+<!-- ==================== DEV TRADING CARD ==================== -->
 <div align="center">
-  <img height="181" src="https://streak-stats.demolab.com?user=RishabhBatra-01&hide_border=true&background=0D1117&ring=FF6B6B&fire=FF6B6B&currStreakNum=FFFFFF&currStreakLabel=FF6B6B&sideNums=FFFFFF&sideLabels=DDDDDD&dates=888888" alt="GitHub streak" />
+  <a href="https://rishabhkbatra.is-a.dev"><img src="./assets/card.png" width="72%" alt="Rishabh Batra — Full-Stack & AI Engineer trading card: ships solo idea→production, Agentic/RAG/LLM, bank-grade backends 60% faster, dual-theme UIs, Marsdrop live + Product Hunt. Open to founding / AI engineer roles." /></a>
 </div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RishabhBatra-01&bg_color=0D1117&color=F5F1E8&line=FF6B6B&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity graph" width="98%" />
-</div>
-
-<!-- ⭐ OPTIONAL — richer stats cards, kept OFF by default so nothing shows broken.
-     The public github-readme-stats server is frequently rate-limited (503 → broken image),
-     and the public trophy service is currently paywalled (402). To turn the stats + top-language
-     cards ON reliably: deploy your own free github-readme-stats instance in ~2 minutes
-     (https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance),
-     replace YOUR-INSTANCE below with your Vercel domain, then delete the two comment markers. -->
-<!--
-<div align="center">
-  <img height="165" src="https://YOUR-INSTANCE.vercel.app/api?username=RishabhBatra-01&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=FF6B6B&icon_color=FF6B6B&text_color=DDDDDD&bg_color=0D1117" alt="GitHub stats" />
-  <img height="165" src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=RishabhBatra-01&layout=compact&langs_count=8&hide_border=true&title_color=FF6B6B&text_color=DDDDDD&bg_color=0D1117" alt="Top languages" />
-</div>
--->
 
 <div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
 
