@@ -35,7 +35,7 @@
 I take products from an **empty repo to live in production**. Backend, AI, full-stack — whatever the idea needs. I bring **ex-fintech reliability** to **startup speed**.
 
 - 🔭 &nbsp;Building at the **AI × product** frontier — agentic systems, RAG pipelines & LLM apps
-- 🏦 &nbsp;3+ years shipping **bank-grade** backends — real-time trading, reactive microservices, 60% latency cut
+- 🏦 &nbsp;4+ years shipping **bank-grade** backends — real-time trading, reactive microservices, 60% latency cut
 - 🧩 &nbsp;Shipped **[Marsdrop](https://marsdrop.in)** end-to-end — zero-knowledge encrypted file sharing, live & on Product Hunt
 - 🌱 &nbsp;Founding-engineer energy: high ownership, ship weekly, sweat the details users feel but never see
 - 💬 &nbsp;Open to **Founding / AI Engineer** roles — *let's build something worth shipping*
