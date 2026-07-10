@@ -1,122 +1,241 @@
+<!-- ==================== HERO (theme-aware: sketch on light, neobrutalism on dark) ==================== -->
+<!-- Mirrors my portfolio's "two themes, one codebase". GitHub picks the banner from the
+     viewer's theme. Assets: banner.gif (dark, animated) + banner-sketch.png (light). -->
 <div align="center">
-  <img src="https://rishabhkbatra.is-a.dev/assets/images/hero-bg.jpg" alt="Rishabh Batra" width="100%" style="border-radius: 12px; margin-bottom: 20px;"/>
-  
-  <h1>Hi there, I'm Rishabh Batra 👋</h1>
-  <h3>Java Backend Developer & AI Specialist</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-sketch.png" />
+    <img src="./assets/banner-sketch.png" alt="Rishabh Batra — From idea to production, I build anything" width="100%" />
+  </picture>
+</div>
 
-  <p>
-    <strong>Building scalable microservices • AI-powered real-time systems • Clean & elegant code</strong>
-  </p>
-
-  <a href="https://rishabhkbatra.is-a.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-rishabhkbatra.is--a.dev-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://linkedin.com/in/rishabhkbatra" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:rishabhkbatra@gmail.com">
-    <img src="https://img.shields.io/badge/Email-rishabhbatra81@gmail.com-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
+<!-- ==================== TYPING INTRO ==================== -->
+<div align="center">
+  <a href="https://rishabhkbatra.is-a.dev">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1000&color=FF6B6B&center=true&vCenter=true&width=720&height=45&lines=From+idea+to+production%2C+I+build+anything.;Founding+%26+AI+Engineer+%F0%9F%9A%80;I+ship+products+0+to+1;Backend+%7C+Agentic+AI+%7C+Full-Stack" alt="Typing SVG" />
   </a>
 </div>
 
----
+<!-- ==================== SOCIAL BADGES ==================== -->
+<div align="center">
+  <a href="https://rishabhkbatra.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/rishabhkbatra"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/Rishabh_Batra_"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://www.producthunt.com/products/marsdrop"><img src="https://img.shields.io/badge/Product_Hunt-DA552F?style=for-the-badge&logo=producthunt&logoColor=white" alt="Product Hunt" /></a>
+  <a href="mailto:rishabhbatra81@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=RishabhBatra-01&label=Profile+Views&color=FF6B6B&style=flat-square" alt="Profile views" />
+</div>
 
-### About Me
+<br/>
 
-I'm a passionate **Java Backend Developer** and **AI Specialist** with experience building high-performance systems and intelligent AI solutions. I love turning complex problems into simple, scalable, and maintainable solutions.
+<!-- ==================== ABOUT ==================== -->
+## 🚀 Hey, I'm Rishabh — a builder.
 
-Currently crafting real-time trading platforms and RAG-based AI systems at **Wissen Technology (Macquarie Group)**.
+I take products from an **empty repo to live in production**. Backend, AI, full-stack — whatever the idea needs. I bring **ex-fintech reliability** to **startup speed**.
 
-When I'm not coding, you'll find me exploring new AI technologies, writing technical content, or sketching system architectures.
-
-### ✨ Highlights
-
-- Built **RAG pipelines** that help new engineers understand legacy systems in minutes
-- Reduced system latency by **60%** using reactive microservices (Spring WebFlux)
-- Developed multiple **AI-powered applications** with Gemini, Claude, ElevenLabs & OpenAI
-- Strong believer in clean architecture, documentation, and developer experience
-
----
-
-### 🛠️ Skills & Technologies
-
-**Backend & Architecture**
-- Java • Spring Boot • Spring WebFlux • Microservices • REST APIs • OpenAPI
-- Kafka • Solace PubSub+ • Reactive Programming
-
-**AI & ML**
-- Agentic AI • RAG Pipelines • Prompt Engineering • Gemini • Claude (Bedrock) • OpenAI
-- ElevenLabs • LLM Inference
-
-**Other**
-- System Design • CI/CD • Docker • PostgreSQL • Supabase • Unit Testing (JUnit5 + Mockito)
-- Technical Writing • Agile
-
----
-
-### 💼 Professional Experience
-
-**Software Engineer** @ Wissen Technology (Macquarie Group)  
-*June 2025 – Present*
-- Built RAG-based knowledge retrieval system using LLMs for legacy code understanding
-- Implemented high-volume messaging system with Solace PubSub+ across multiple asset classes
-- Integrated Amazon Bedrock + Claude with secure CI/CD deployment pipeline
-
-**Software Engineer** @ FIS Global  
-*Feb 2022 – Apr 2025*
-- Reduced latency by 60% through reactive microservices architecture
-- Designed and developed production-grade REST APIs following OpenAPI standards
-- Achieved 85%+ unit test coverage and improved system reliability
-
-**Technical Content Writer** @ GeeksforGeeks  
-*Jun 2021 – Dec 2021*
-- Authored widely-read articles on DSA and problem-solving
-
----
-
-### 🚀 Featured Projects
-
-**Persona Studio**  
-AI-powered professional headshot generator with client-side processing and Gemini 2.5 integration.  
-**Tech:** React 19, TypeScript, Tailwind, Gemini AI
-
-**AI Recruitment Automation** *(Hackathon)*  
-End-to-end recruitment platform with intelligent resume parsing and AI interviews. Reduced manual screening by **85%**.  
-**Tech:** React, n8n, ElevenLabs, Supabase, Gemini
-
-**Cronos AI Reminder** *(Hackathon)*  
-Offline-first AI reminder mobile app with voice transcription and smart scheduling.  
-**Tech:** React Native, Whisper, GPT-4o-mini, Supabase
-
-**Lavio AI Browser Assistant**  
-Voice-powered AI browser extension for enhanced productivity.  
-**Tech:** JavaScript, Chrome Extensions, Ollama
-
-→ [View All Projects](https://rishabhkbatra.is-a.dev/#projects)
-
----
-
-### 🎓 Education & Certifications
-
-- **B.Tech in Computer Science & Engineering**  
-  Chandigarh Group of Colleges, Landran (2022)
-
-**Certifications:**
-- Java OOP & Advanced Java (LinkedIn Learning)
-- Microservices and REST API (Pluralsight)
-- Java Lambdas and Streams
-
----
-
-### 📫 Let's Connect!
-
-I'm always open to interesting conversations about **Backend Systems**, **AI Engineering**, or **System Design**.
-
-- **Portfolio**: [rishabhkbatra.is-a.dev](https://rishabhkbatra.is-a.dev)
-- **Email**: rishabhkbatra@gmail.com
-
----
+- 🔭 &nbsp;Building at the **AI × product** frontier — agentic systems, RAG pipelines & LLM apps
+- 🏦 &nbsp;3+ years shipping **bank-grade** backends — real-time trading, reactive microservices, 60% latency cut
+- 🧩 &nbsp;Shipped **[Marsdrop](https://marsdrop.in)** end-to-end — zero-knowledge encrypted file sharing, live & on Product Hunt
+- 🌱 &nbsp;Founding-engineer energy: high ownership, ship weekly, sweat the details users feel but never see
+- 💬 &nbsp;Open to **Founding / AI Engineer** roles — *let's build something worth shipping*
+- 🌐 &nbsp;Explore everything at **[rishabhkbatra.is-a.dev](https://rishabhkbatra.is-a.dev)**
 
 <div align="center">
-  <strong>✨ "Clean code today, scalable systems tomorrow" ✨</strong>
+  <br/>
+  <code>⚡ 60% latency cut</code> &nbsp; <code>✅ 85%+ test coverage</code> &nbsp; <code>🧑‍💻 3+ yrs in production</code> &nbsp; <code>🏅 Product Hunt launch</code>
+</div>
+
+<div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
+
+<!-- ==================== TECH STACK ==================== -->
+## 🛠️ Tech Stack
+
+<div align="center">
+  <br/>
+  <b>Languages</b><br/><br/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <br/><br/>
+  <b>Backend &amp; Messaging</b><br/><br/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/WebFlux-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="WebFlux" />
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate" />
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+  <img src="https://img.shields.io/badge/REST_%2F_OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white" alt="REST / OpenAPI" />
+  <br/><br/>
+  <b>AI / LLM</b><br/><br/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/RAG_%2F_Agents-FF6B6B?style=for-the-badge&logo=probot&logoColor=white" alt="RAG / Agents" />
+  <br/><br/>
+  <b>Frontend</b><br/><br/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <br/><br/>
+  <b>Data &amp; DevOps</b><br/><br/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</div>
+
+<div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
+
+<!-- ==================== FEATURED PROJECTS ==================== -->
+## ✨ Featured Projects
+
+<!-- Flagship — full-width thumbnail + write-up -->
+<table>
+  <tr>
+    <td width="46%" valign="top">
+      <a href="https://marsdrop.in"><img src="./assets/proj-marsdrop.jpg" alt="Marsdrop" width="100%" /></a>
+    </td>
+    <td width="54%" valign="top">
+      <h3>🪐 Marsdrop &nbsp;<sub><i>flagship</i></sub></h3>
+      <b>Zero-knowledge encrypted file sharing</b>, built &amp; launched end-to-end. Client-side streaming <b>AES-256-GCM</b> keeps the key in the URL fragment — the server only ever stores a blob it <i>can't read</i>. Files self-destruct on expiry / limit / revoke, with optional <b>WebRTC P2P</b> transfer signalled by a Cloudflare Durable Object.
+      <br/><br/>
+      <code>Next.js</code> <code>Web Crypto</code> <code>WebRTC</code> <code>Cloudflare</code> <code>Supabase</code>
+      <br/><br/>
+      <a href="https://marsdrop.in"><img src="https://img.shields.io/badge/Live-marsdrop.in-FF6B6B?style=flat-square&logo=vercel&logoColor=white" alt="Live" /></a>
+      <a href="https://www.producthunt.com/products/marsdrop"><img src="https://img.shields.io/badge/Product_Hunt-DA552F?style=flat-square&logo=producthunt&logoColor=white" alt="Product Hunt" /></a>
+      <a href="https://youtu.be/uDpZB1AFQos"><img src="https://img.shields.io/badge/Demo-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Demo" /></a>
+    </td>
+  </tr>
+</table>
+
+<!-- 2×2 gallery — the rest -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://www.youtube.com/watch?v=Zz_lk_vAy4M"><img src="./assets/proj-recruitment.jpg" alt="AI Recruitment Automation" width="100%" /></a>
+      <h4>🤖 AI Recruitment Automation</h4>
+      End-to-end hiring platform — resume parsing, dual portals &amp; AI voice interviews. <b>Cut manual screening 85%.</b>
+      <br/><br/>
+      <code>n8n</code> <code>ElevenLabs</code> <code>Gemini</code> <code>React</code>
+      <br/><br/>
+      <a href="https://www.youtube.com/watch?v=Zz_lk_vAy4M"><img src="https://img.shields.io/badge/Demo-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Demo"/></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://devpost.com/software/cronos-vpnh6r"><img src="./assets/proj-cronos.jpg" alt="Cronos AI Reminder" width="100%" /></a>
+      <h4>🎙️ Cronos AI Reminder &nbsp;<sub><i>hackathon</i></sub></h4>
+      Offline-first AI reminder app with bidirectional sync, voice transcription &amp; scheduling NLP.
+      <br/><br/>
+      <code>React Native</code> <code>Whisper</code> <code>GPT-4o-mini</code> <code>Supabase</code>
+      <br/><br/>
+      <a href="https://github.com/RishabhBatra-01/Cronos-MobileApp"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white" alt="Code"/></a>
+      <a href="https://devpost.com/software/cronos-vpnh6r"><img src="https://img.shields.io/badge/Devpost-003E54?style=flat-square&logo=devpost&logoColor=white" alt="Devpost"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://persona-studio-puce.vercel.app"><img src="./assets/proj-persona.png" alt="Persona Studio" width="100%" /></a>
+      <h4>🖼️ Persona Studio</h4>
+      Privacy-first AI headshot generator — client-side processing, Gemini 2.5, results in 5–15s.
+      <br/><br/>
+      <code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Gemini</code>
+      <br/><br/>
+      <a href="https://persona-studio-puce.vercel.app"><img src="https://img.shields.io/badge/Live-FF6B6B?style=flat-square&logo=vercel&logoColor=white" alt="Live"/></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://youtu.be/nU14TbTc4L4"><img src="./assets/proj-lavio.jpg" alt="Lavio Browser Engine" width="100%" /></a>
+      <h4>🧭 Lavio Browser Engine &nbsp;<sub><i>hackathon</i></sub></h4>
+      Voice-powered AI browser extension automating in-browser workflows, hands-free.
+      <br/><br/>
+      <code>JavaScript</code> <code>Chrome Extensions</code> <code>Ollama</code>
+      <br/><br/>
+      <a href="https://github.com/RishabhBatra-01/Lavio-AI"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white" alt="Code"/></a>
+      <a href="https://youtu.be/nU14TbTc4L4"><img src="https://img.shields.io/badge/Demo-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Demo"/></a>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <a href="https://rishabhkbatra.is-a.dev/#projects"><img src="https://img.shields.io/badge/→_See_all_projects-141311?style=for-the-badge" alt="See all projects" /></a>
+</div>
+
+<div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
+
+<!-- ==================== GITHUB STATS ==================== -->
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="181" src="https://streak-stats.demolab.com?user=RishabhBatra-01&hide_border=true&background=0D1117&ring=FF6B6B&fire=FF6B6B&currStreakNum=FFFFFF&currStreakLabel=FF6B6B&sideNums=FFFFFF&sideLabels=DDDDDD&dates=888888" alt="GitHub streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RishabhBatra-01&bg_color=0D1117&color=F5F1E8&line=FF6B6B&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity graph" width="98%" />
+</div>
+
+<!-- ⭐ OPTIONAL — richer stats cards, kept OFF by default so nothing shows broken.
+     The public github-readme-stats server is frequently rate-limited (503 → broken image),
+     and the public trophy service is currently paywalled (402). To turn the stats + top-language
+     cards ON reliably: deploy your own free github-readme-stats instance in ~2 minutes
+     (https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance),
+     replace YOUR-INSTANCE below with your Vercel domain, then delete the two comment markers. -->
+<!--
+<div align="center">
+  <img height="165" src="https://YOUR-INSTANCE.vercel.app/api?username=RishabhBatra-01&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=FF6B6B&icon_color=FF6B6B&text_color=DDDDDD&bg_color=0D1117" alt="GitHub stats" />
+  <img height="165" src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=RishabhBatra-01&layout=compact&langs_count=8&hide_border=true&title_color=FF6B6B&text_color=DDDDDD&bg_color=0D1117" alt="Top languages" />
+</div>
+-->
+
+<div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
+
+<!-- ==================== CURRENTLY BUILDING ==================== -->
+## 🔨 Currently Building &amp; Exploring
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔨 Now</h3>
+      <ul>
+        <li>Agentic AI tools &amp; LLM-powered products</li>
+        <li>Shipping side projects <b>0 → 1</b>, live on the web</li>
+        <li>Turning my portfolio's ideas into real, usable apps</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌱 Going Deep On</h3>
+      <ul>
+        <li>RAG, evals &amp; agent orchestration</li>
+        <li>Realtime, reactive backends at scale</li>
+        <li>Product craft — the details users feel but never see</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <i>Building something ambitious and looking for a founding / AI engineer? <a href="mailto:rishabhbatra81@gmail.com">Let's talk →</a></i>
+</div>
+
+<div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
+
+<!-- ==================== CONNECT ==================== -->
+## 🤝 Let's build something
+
+I'm always up for a conversation about **AI products**, **backend systems**, or **0→1 startups**. If you're a founder building something ambitious — reach out.
+
+<div align="center">
+  <a href="https://rishabhkbatra.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/rishabhkbatra"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:rishabhbatra81@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://leetcode.com/u/rishabh-123/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+</div>
+
+<br/>
+
+<div align="center">
+  <sub><i>From idea to production — let's build something worth shipping.</i> 🚀</sub>
 </div>
