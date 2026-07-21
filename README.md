@@ -43,7 +43,7 @@ I take products from an **empty repo to live in production**. Backend, AI, full-
 
 <div align="center">
   <br/>
-  <code>⚡ 60% latency cut</code> &nbsp; <code>✅ 85%+ test coverage</code> &nbsp; <code>🧑‍💻 3+ yrs in production</code> &nbsp; <code>🏅 Product Hunt launch</code>
+  <code>⚡ 60% latency cut</code> &nbsp; <code>✅ 85%+ test coverage</code> &nbsp; <code>🧑‍💻 4+ yrs in production</code> &nbsp; <code>🏅 Product Hunt launch</code>
 </div>
 
 <div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
