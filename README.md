@@ -203,6 +203,24 @@ I take products from an **empty repo to live in production**. Backend, AI, full-
 
 <div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
 
+<!-- ==================== CONTRIBUTION SNAKE ==================== -->
+<!-- Generated twice a day by .github/workflows/snake.yml — do not edit dist/ by hand.
+     Same two-theme approach as the hero banner: GitHub serves the variant that
+     matches the viewer's color scheme. -->
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
+    <img src="./dist/github-snake.svg" alt="Snake eating my GitHub contribution graph" width="100%" />
+  </picture>
+  <br/>
+  <sub>A year of contributions, eaten square by square — regenerated twice daily by <a href="./.github/workflows/snake.yml">a GitHub Action</a>.</sub>
+</div>
+
+<div align="center"><img src="./assets/divider.svg" width="55%" alt="" /></div>
+
 <!-- ==================== CONNECT ==================== -->
 ## 🤝 Let's build something
 
