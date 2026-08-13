@@ -1,0 +1,49 @@
+# Renders the contribution graph as an animated "snake eating the squares" SVG.
+# Output lands in dist/ and is embedded by README.md via a <picture> element.
+name: Generate Snake
+
+on:
+  schedule:
+    # Twice a day. Offset off the hour on purpose — :00 is peak scheduling
+    # load on GitHub's shared cron queue and gets delayed the most.
+    - cron: "17 2,14 * * *"
+  workflow_dispatch:
+
+# The repo default for GITHUB_TOKEN is read-only; the push step needs write.
+permissions:
+  contents: write
+
+# A slow run must never race the next scheduled one into a push conflict.
+concurrency:
+  group: generate-snake
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Only the two variants README.md actually references.
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/
+          if git diff --staged --quiet; then
+            echo "Snake unchanged — nothing to commit."
+          else
+            git commit -m "chore: regenerate contribution snake"
+            git push
+          fi
